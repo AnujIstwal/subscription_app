@@ -1,6 +1,10 @@
 {
   "version": 2,
   "routes":[
-    { "src": "/(.*)", "dest": "/" }
+    {"src": "/login", "dest": "/", "status": 200},
+    {"src": "/register", "dest": "/", "status": 200},
+    {"src": "/plans", "dest": "/", "status": 200},
+    {"src": "/checkout", "dest": "/", "status": 200},
+    {"src": "/dashboard", "dest": "/", "status": 200},
   ]
 }
