@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes":[
+    {"src": "/", "dest": "/", "status": 200},
+    {"src": "/login", "dest": "/", "status": 200},
+    {"src": "/register", "dest": "/", "status": 200}
+  ]
+}
