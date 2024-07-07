@@ -1,0 +1,70 @@
+/* PlanSelection.css */
+.plan-selection {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.plan-selection h2 {
+    text-align: center;
+}
+
+.billing-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.billing-toggle button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* .billing-toggle button.active {
+    background: #007bff;
+    color: white;
+} */
+
+.plans-table {
+    margin-top: 20px;
+}
+
+.plan-details {
+    display: table-cell;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 150px;
+}
+
+.plan-card {
+    display: table-cell;
+    padding: 10px;
+    background: #fff;
+    //border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.plan-card.selected {
+    border-color: #007bff;
+    background: #d5e2f6;
+}
+
+.next-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
