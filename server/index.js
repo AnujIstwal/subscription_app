@@ -27,6 +27,11 @@ app.use(
     })
 );
 
+app.options("*",     cors({
+        origin: "https://subscription-app-client.vercel.app",
+        credentials: true,
+    }));
+
 // Routes
 app.use("/", testRoutes);
 app.use("/api/auth", authRoutes);
