@@ -280,7 +280,10 @@ const Plan = ({ setSelectedPlan, setManualNavToSubscribe }) => {
                                 alignItems="center"
                                 border="1px solid #d9d9d9"
                                 borderRadius={2}
-                                m="2px"
+                                m={1}
+                                ml={5}
+                                mr={5}
+                                xs={12}
                             >
                                 <Typography fontWeight={500}>
                                     {plan.name}
