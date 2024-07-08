@@ -4,15 +4,15 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 exports.userDetails = async (req, res) => {
-    // const userEmail = req.user.userEmail;
+    const userEmail = req.user.userEmail;
 
-    // try {
-    //     const user = await User.findOne({ email: userEmail });
-    //     res.json(user);
-    // } catch (error) {
-    //     res.json(`Error : ${error.message}`);
-    // }
-    res.json("api/auth working");
+    try {
+        const user = await User.findOne({ email: userEmail });
+        res.json(user);
+    } catch (error) {
+        res.json(`Error : ${error.message}`);
+    }
+    
 };
 
 exports.register = async (req, res) => {
