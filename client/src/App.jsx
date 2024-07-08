@@ -21,7 +21,7 @@ import Box from "@mui/material/Box";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://subscription-app-server.vercel.app";
 axios.defaults.withCredentials = true;
 
 const Main = () => {
