@@ -280,7 +280,7 @@ const Plan = ({ setSelectedPlan, setManualNavToSubscribe }) => {
                                 alignItems="center"
                                 border="1px solid #d9d9d9"
                                 borderRadius={2}
-                                m={1}
+                                m="2px"
                                 ml={5}
                                 mr={5}
                                 xs={12}
