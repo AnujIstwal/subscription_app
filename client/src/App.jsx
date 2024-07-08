@@ -99,6 +99,7 @@ const Main = () => {
                 flexDirection="column"
                 justifyContent="center"
                 alignItems="center"
+                overflow="auto"
                 bgcolor={path === "/plans" ? "#fff" : "primary.main"}
             >
                 {isAuth && <Logout />}
