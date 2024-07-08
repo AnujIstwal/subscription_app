@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
     cors({
-        origin: "https://subscription-app-client.vercel.app",
+        origin: "http://localhost:5173",
         credentials: true,
          optionsSuccessStatus: 200
     })
