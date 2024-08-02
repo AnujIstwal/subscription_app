@@ -6,12 +6,7 @@
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [API Endpoints](#api-endpoints)
-7. [Deployment](#deployment)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+
 
 ## Project Description
 
