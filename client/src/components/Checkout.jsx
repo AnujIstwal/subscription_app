@@ -57,6 +57,17 @@ const CheckoutForm = ({
         const { error, paymentMethod } = await stripe.createPaymentMethod({
             type: "card",
             card: cardElement,
+            billing_details: {
+                name: user?.userName || "Default Name", // Ensure name is provided
+                email: user?.email || "user@example.com", // Ensure email is provided
+                address: {
+                    line1: user?.address?.line1 || "123 Main Street",
+                    city: user?.address?.city || "Mumbai",
+                    state: user?.address?.state || "Maharashtra",
+                    country: user?.address?.country || "IN",
+                    postal_code: user?.address?.postal_code || "400001",
+                },
+            },
         });
 
         if (error) {
